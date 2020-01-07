@@ -1,5 +1,6 @@
-const { getExperiences } = require('./experiences');
+const { getExperiences, insertExperiences } = require('./experiences');
 
 module.exports = {
-    getExperiences
+    getExperiences,
+    insertExperiences
 };
